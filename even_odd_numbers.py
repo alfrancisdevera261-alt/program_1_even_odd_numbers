@@ -18,3 +18,5 @@ class NumberProcessor:
         
         for num in even_numbers:
             even_file.write(str(num) + "\n")
+            
+        even_file.close()
