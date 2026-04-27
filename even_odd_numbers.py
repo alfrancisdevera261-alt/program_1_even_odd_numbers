@@ -15,3 +15,6 @@ class NumberProcessor:
         file.close()
         
         even_file = open("even.txt", "w")
+        
+        for num in even_numbers:
+            even_file.write(str(num) + "\n")
