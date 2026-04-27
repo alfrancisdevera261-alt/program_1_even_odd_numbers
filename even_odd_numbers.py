@@ -13,3 +13,5 @@ class NumberProcessor:
                 odd_numbers.append(number)
         
         file.close()
+        
+        even_file = open("even.txt", "w")
