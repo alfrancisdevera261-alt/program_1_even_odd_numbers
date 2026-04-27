@@ -20,3 +20,7 @@ class NumberProcessor:
             even_file.write(str(num) + "\n")
             
         even_file.close()
+        
+        odd_file = open("odd.txt", "w")
+        
+        odd_file.close()
