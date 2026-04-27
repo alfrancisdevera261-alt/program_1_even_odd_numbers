@@ -24,6 +24,9 @@ class NumberProcessor:
         odd_file = open("odd.txt", "w")
         
         for num in odd_numbers:
-            odd_file = write(str(num) + "\n")
+            odd_file.write(str(num) + "\n")
         
         odd_file.close()
+        
+processor = NumberProcessor()
+processor.process_number()
