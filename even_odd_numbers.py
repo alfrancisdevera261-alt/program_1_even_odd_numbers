@@ -7,4 +7,7 @@ class NumberProcessor:
         
         for line in file:
             number = int(line.strip())
-            
+            if number % 2 == 0:
+                even_numbers.append(number)
+            else:
+                odd_numbers.append(number)
