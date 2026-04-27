@@ -4,3 +4,7 @@ class NumberProcessor:
         
         even_numbers = []
         odd_numbers = []
+        
+        for line in file:
+            number = int(line.strip())
+            
