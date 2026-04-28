@@ -1,6 +1,9 @@
+import os
+
 class NumberProcessor:
     def process_number(self):
-        file = open("numbers.txt", "r")
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        file = open(os.path.join(script_dir, "numbers.txt"), "r")
         
         even_numbers = []
         odd_numbers = []
@@ -14,14 +17,14 @@ class NumberProcessor:
         
         file.close()
         
-        even_file = open("even.txt", "w")
+        even_file = open(os.path.join(script_dir, "even.txt"), "w")
         
         for num in even_numbers:
             even_file.write(str(num) + "\n")
             
         even_file.close()
         
-        odd_file = open("odd.txt", "w")
+        odd_file = open(os.path.join(script_dir, "odd.txt"), "w")
         
         for num in odd_numbers:
             odd_file.write(str(num) + "\n")
