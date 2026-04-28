@@ -6,7 +6,7 @@ Pedro Bautista, 2.25
 Rosa Aquino, 1.00
 Miguel Torres, 2.75
 Carmen Villanueva, 1.50
-Luis Mendoza, 3.00
+Luis Mendoza, 1.00
 Elena Ramos, 1.25
 Ricardo Flores, 2.50
 Beatriz Hernandez, 1.75

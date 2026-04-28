@@ -7,7 +7,7 @@ class StudentGWA:
         file = open(os.path.join(script_dir, "students.txt"), "r")
         
         highest_name = ""
-        highest_gwa = 0
+        highest_gwa = 5
         
         for line in file:
             name, gwa = line.strip().split(",")
