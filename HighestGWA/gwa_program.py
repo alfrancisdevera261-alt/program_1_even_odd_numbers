@@ -18,3 +18,6 @@ class StudentGWA:
         
         print("Highest GWA:")
         print(highest_name, "-", highest_gwa)
+        
+student = StudentGWA()
+student.get_highest_gwa()
