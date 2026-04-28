@@ -30,3 +30,6 @@ class IntegerProcessor:
             triple_file.write(str(num) + "\n")
 
         triple_file.close()
+        
+processor = IntegerProcessor()
+processor.process()
