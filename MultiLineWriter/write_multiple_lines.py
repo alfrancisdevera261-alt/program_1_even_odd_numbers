@@ -6,4 +6,5 @@ class MyLifeWriter:
         
         while True:
             
-             line = input("Enter line: ")
+            line = input("Enter line: ")
+            file.write(line + "\n")
