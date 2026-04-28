@@ -8,3 +8,6 @@ class MyLifeWriter:
             
             line = input("Enter line: ")
             file.write(line + "\n")
+            
+            choice = input("Are there more lines y/n? ")
+            
