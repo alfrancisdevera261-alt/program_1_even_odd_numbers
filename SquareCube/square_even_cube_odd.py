@@ -28,3 +28,5 @@ class IntegerProcessor:
         
         for num in odd_results:
             triple_file.write(str(num) + "\n")
+
+        triple_file.close()
