@@ -25,3 +25,6 @@ class IntegerProcessor:
         double_file.close()
         
         triple_file = open("triple.txt", "w")
+        
+        for num in odd_results:
+            triple_file.write(str(num) + "\n")
