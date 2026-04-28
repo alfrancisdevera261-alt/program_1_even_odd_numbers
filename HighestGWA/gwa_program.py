@@ -9,3 +9,7 @@ class StudentGWA:
         for line in file:
             name, gwa = line.strip().split(",")
             gwa = float(gwa)
+            
+            if gwa > highest_gwa:
+                highest_gwa = gwa
+                highest_name = name
