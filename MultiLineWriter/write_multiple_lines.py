@@ -13,3 +13,5 @@ class MyLifeWriter:
             
             if choice.lower() != 'y':
                 break
+            
+        file.close()
