@@ -16,3 +16,6 @@ class IntegerProcessor:
                 odd_results.append(number ** 3)   # cube
 
         file.close()
+        
+        double_file = open("double.txt", "w")
+        
