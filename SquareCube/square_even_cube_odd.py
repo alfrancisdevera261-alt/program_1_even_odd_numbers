@@ -19,3 +19,7 @@ class IntegerProcessor:
         
         double_file = open("double.txt", "w")
         
+        for num in even_results:
+            double_file.write(str(num) + "\n")
+
+        
