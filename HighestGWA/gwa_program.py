@@ -13,7 +13,7 @@ class StudentGWA:
             name, gwa = line.strip().split(",")
             gwa = float(gwa)
             
-            if gwa > highest_gwa:
+            if gwa < highest_gwa:
                 highest_gwa = gwa
                 highest_name = name
                 
