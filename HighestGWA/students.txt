@@ -1,13 +1,13 @@
-Juan dela Cruz, 1.25
+Juan dela Cruz, 1.50
 Maria Santos, 1.50
 Jose Reyes, 2.00
 Ana Gonzalez, 1.75
 Pedro Bautista, 2.25
-Rosa Aquino, 1.00
+Rosa Aquino, 1.25
 Miguel Torres, 2.75
 Carmen Villanueva, 1.50
 Luis Mendoza, 1.00
-Elena Ramos, 1.25
+Elena Ramos, 1.50
 Ricardo Flores, 2.50
 Beatriz Hernandez, 1.75
 Antonio Morales, 2.00
