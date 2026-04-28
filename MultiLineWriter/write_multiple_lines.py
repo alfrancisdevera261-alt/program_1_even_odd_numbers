@@ -11,3 +11,5 @@ class MyLifeWriter:
             
             choice = input("Are there more lines y/n? ")
             
+            if choice.lower() != 'y':
+                break
