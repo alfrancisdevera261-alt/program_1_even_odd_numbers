@@ -22,4 +22,5 @@ class IntegerProcessor:
         for num in even_results:
             double_file.write(str(num) + "\n")
 
+        double_file.close()
         
