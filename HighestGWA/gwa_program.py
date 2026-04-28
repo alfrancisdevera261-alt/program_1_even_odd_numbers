@@ -1,7 +1,10 @@
+import os
+
 class StudentGWA:
     def get_highest_gwa(self): 
         
-        file = open("students.txt", "r")
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        file = open(os.path.join(script_dir, "students.txt"), "r")
         
         highest_name = ""
         highest_gwa = 0
