@@ -5,3 +5,5 @@ class MyLifeWriter:
         file = open("mylife.txt", "w")
         
         while True:
+            
+             line = input("Enter line: ")
