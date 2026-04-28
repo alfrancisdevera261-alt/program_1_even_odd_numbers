@@ -14,3 +14,5 @@ class IntegerProcessor:
                 even_results.append(number ** 2)  # square
             else:
                 odd_results.append(number ** 3)   # cube
+
+        file.close()
