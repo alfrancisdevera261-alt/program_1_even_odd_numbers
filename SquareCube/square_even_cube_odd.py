@@ -6,3 +6,6 @@ class IntegerProcessor:
         
         even_results = []
         odd_results = []
+        
+        for line in file:
+            number = int(line.strip())
