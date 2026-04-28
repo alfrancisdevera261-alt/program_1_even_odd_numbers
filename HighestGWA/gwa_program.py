@@ -15,3 +15,6 @@ class StudentGWA:
                 highest_name = name
                 
         file.close()
+        
+        print("Highest GWA:")
+        print(highest_name, "-", highest_gwa)
