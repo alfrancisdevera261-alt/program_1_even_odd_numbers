@@ -15,3 +15,6 @@ class MyLifeWriter:
                 break
             
         file.close()
+        
+writer = MyLifeWriter()
+writer.write_lines()
